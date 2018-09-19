@@ -1,0 +1,50 @@
+.heading {
+  background: #34B379;
+  color: white;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 118px;
+
+  h3 {
+    font-size: 1.06em;
+    margin: 0;
+    padding: 0;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.92em;
+    font-weight: normal;
+  }
+}
+
+.content {
+  padding: 28px 24px;
+
+  .phone, .twitter {
+    margin-top: 26px;
+  }
+}
+
+.detail-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  height: 360px;
+}
+
+@media (min-width: 1024px) {
+  .detail-con {
+    justify-content: flex-end;
+    height: 100%;
+
+    .map {
+      height: 100%;
+    }
+  }
+}

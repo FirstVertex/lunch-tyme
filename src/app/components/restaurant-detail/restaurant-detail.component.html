@@ -1,0 +1,12 @@
+<div class="detail-con">
+  <div class="map" #gmap></div>
+  <div class="heading">
+    <h3>{{restaurant.name}}</h3>
+    <h4>{{restaurant.category}}</h4>
+  </div>
+  <div class="content">
+    <div *ngFor="let addressLine of restaurant.location.formattedAddress | slice:0:-1">{{addressLine}}</div>
+    <div class="phone" *ngIf="restaurant.contact && restaurant.contact.formattedPhone">{{restaurant.contact.formattedPhone}}</div>
+    <div class="twitter" *ngIf="restaurant.contact && restaurant.contact.twitter">@{{restaurant.contact.twitter}}</div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+body, html, .cover {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+  color: #2a2a2a;
+}
+
+.icon-map {
+  background: url(/src/assets/icon_map@2x.png) no-repeat;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-back {
+  background: url(/src/assets/ic_webBack@2x.png) no-repeat;
+  width: 26px;
+  height: 50px;
+}
+
+.clickable {
+  cursor: pointer;
+}
