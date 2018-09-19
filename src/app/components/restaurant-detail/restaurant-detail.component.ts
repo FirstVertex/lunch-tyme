@@ -41,7 +41,7 @@ export class RestaurantDetailComponent implements OnInit {
         title: this.restaurant.name,
         label: this.restaurant.name,
         // red is clashing with our green theme
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'});
+        icon: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png'});
     }
   }
 }
